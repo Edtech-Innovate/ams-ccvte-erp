@@ -1,0 +1,33 @@
+<?php
+if(isset($id)){
+  $_POST['id']= $id;
+}
+  if(isset($_POST['id'])){
+    require '../../includes/db-config.php';
+    require '../../includes/helpers.php';
+
+
+    $id = intval($_POST['id']);
+    $allot =array($university_id48);
+    // $allot = array_key_exists('allot', $_POST) ? $_POST['allot'] : [];
+
+    if(empty($allot)){
+      $delete = $conn->query("DELETE FROM University_User WHERE `User_ID` = $id");
+      if($delete){
+        echo json_encode(['status'=>200, 'message'=>'Alloted university deleted successfully!']);
+        exit();
+      }
+    }
+
+    if(!empty($allot)){
+      $conn->query("DELETE FROM University_User WHERE `User_ID` = $id");
+      foreach($allot as $university_id){
+        $update = $conn->query("INSERT INTO University_User (`University_ID`, `User_ID`, `Reporting`) VALUES ($university_id, $id, 1)");
+      }
+      if($update){
+        echo json_encode(['status'=>200, 'message'=>'Universities alloted successfully!']);
+        exit();
+      }
+    }
+    
+  }

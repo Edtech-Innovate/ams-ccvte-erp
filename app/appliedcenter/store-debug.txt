@@ -1,0 +1,3114 @@
+POST:
+Array
+(
+    [name] => Safdar 
+    [short_name] => Safdar 
+    [contact_person_name] => Safdar
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567896
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+POST:
+Array
+(
+    [name] => Safdar 
+    [short_name] => Safdar 
+    [contact_person_name] => Safdar
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567896
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+POST:
+Array
+(
+    [name] => Safdar 
+    [short_name] => Safdar 
+    [contact_person_name] => 
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+==== New Request: 2025-07-07 12:04:47 ====
+POST DATA:
+Array
+(
+    [name] => Safdar 
+    [short_name] => Safdar 
+    [contact_person_name] => 
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC4004
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'Safdar ', 'Safdar ', '', 'CC4004', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+==== New Request: 2025-07-07 12:19:25 ====
+POST DATA:
+Array
+(
+    [name] => Safdar 
+    [short_name] => Safdar 
+    [contact_person_name] => Safdar
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567896
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC5002
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'Safdar ', 'Safdar ', 'Safdar', 'CC5002', 'safdarali.cse@gmail.com', '1234567896', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+==== New Request: 2025-07-07 12:59:19 ====
+POST DATA:
+Array
+(
+    [name] => Safdar 
+    [short_name] => Safdar 
+    [contact_person_name] => Safdar
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567896
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC5003
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'Safdar ', 'Safdar ', 'Safdar', 'CC5003', 'safdarali.cse@gmail.com', '1234567896', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+==== New Request: 2025-07-08 07:34:42 ====
+POST DATA:
+Array
+(
+    [name] => Safdar 
+    [short_name] => Safdar 
+    [contact_person_name] => Safdar
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567896
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC5004
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'Safdar ', 'Safdar ', 'Safdar', 'CC5004', 'safdarali.cse@gmail.com', '1234567896', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+==== New Request: 2025-07-08 08:05:04 ====
+POST DATA:
+Array
+(
+    [name] => deepak
+    [short_name] => deepak
+    [contact_person_name] => 
+    [email] => deepak@edtechinnovate.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC5005
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'deepak', 'deepak', '', 'CC5005', 'deepak@edtechinnovate.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+==== New Request: 2025-07-08 13:09:15 ====
+POST DATA:
+Array
+(
+    [name] => Safdar 
+    [short_name] => Safdar 
+    [contact_person_name] => 
+    [email] => saif@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC5006
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'Safdar ', 'Safdar ', '', 'CC5006', 'saif@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+==== New Request: 2025-07-08 13:10:55 ====
+POST DATA:
+Array
+(
+    [name] => ABCD
+    [short_name] => ABCD
+    [contact_person_name] => SAFDAR
+    [email] => saif@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC5007
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'ABCD', 'ABCD', 'SAFDAR', 'CC5007', 'saif@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+==== New Request: 2025-07-08 13:30:48 ====
+POST DATA:
+Array
+(
+    [name] => Safdar 
+    [short_name] => Safdar 
+    [contact_person_name] => Safdar
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567896
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC5008
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'Safdar ', 'Safdar ', 'Safdar', 'CC5008', 'safdarali.cse@gmail.com', '1234567896', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+==== New Request: 2025-07-08 13:31:03 ====
+POST DATA:
+Array
+(
+    [name] => Safdar 
+    [short_name] => Safdar 
+    [contact_person_name] => 
+    [email] => saif@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC5009
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'Safdar ', 'Safdar ', '', 'CC5009', 'saif@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+==== New Request: 2025-07-09 11:51:51 ====
+POST DATA:
+Array
+(
+    [name] => ABC
+    [short_name] => ABC
+    [contact_person_name] => 
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0002
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'ABC', 'ABC', '', 'CC0002', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+==== New Request: 2025-07-09 11:54:16 ====
+POST DATA:
+Array
+(
+    [name] => ABC
+    [short_name] => ABC
+    [contact_person_name] => 
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0002
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'ABC', 'ABC', '', 'CC0002', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+==== New Request: 2025-07-10 06:42:27 ====
+POST DATA:
+Array
+(
+    [name] => Safdar Ali
+    [short_name] => Safdar Ali
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0003
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'Safdar Ali', 'Safdar Ali', 'ABC', 'CC0003', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+==== New Request: 2025-07-10 07:08:38 ====
+POST DATA:
+Array
+(
+    [name] => ABCDE
+    [short_name] => ABCDE
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0004
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'ABCDE', 'ABCDE', 'ABC', 'CC0004', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-10 07:11:24 ====
+POST DATA:
+Array
+(
+    [name] => Safdar ALi
+    [short_name] => Safdar ALi
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0005
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'Safdar ALi', 'Safdar ALi', 'ABC', 'CC0005', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-10 08:19:11 ====
+POST DATA:
+Array
+(
+    [name] => cvd
+    [short_name] => cvd
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0006
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'cvd', 'cvd', 'ABC', 'CC0006', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-10 08:21:11 ====
+POST DATA:
+Array
+(
+    [name] => abcd
+    [short_name] => abcd
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0007
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'abcd', 'abcd', 'ABC', 'CC0007', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-10 08:55:17 ====
+POST DATA:
+Array
+(
+    [name] => abcd
+    [short_name] => abcd
+    [contact_person_name] => 
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0008
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'abcd', 'abcd', '', 'CC0008', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-11 09:04:38 ====
+POST DATA:
+Array
+(
+    [name] => ABCD
+    [short_name] => ABCD
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0008
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'ABCD', 'ABCD', 'ABC', 'CC0008', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-11 09:09:00 ====
+POST DATA:
+Array
+(
+    [name] => Safdar 
+    [short_name] => Safdar 
+    [contact_person_name] => ABC
+    [email] => saif@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0009
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'Safdar ', 'Safdar ', 'ABC', 'CC0009', 'saif@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-11 09:09:47 ====
+POST DATA:
+Array
+(
+    [name] => vmd
+    [short_name] => vmd
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0010
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'vmd', 'vmd', 'ABC', 'CC0010', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-11 09:13:17 ====
+POST DATA:
+Array
+(
+    [name] => ACFDFEDFF
+    [short_name] => ACFDFEDFF
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0011
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'ACFDFEDFF', 'ACFDFEDFF', 'ABC', 'CC0011', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-11 13:43:39 ====
+POST DATA:
+Array
+(
+    [name] => Safdar 
+    [short_name] => Safdar 
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0012
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'Safdar ', 'Safdar ', 'ABC', 'CC0012', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-12 07:11:38 ====
+POST DATA:
+Array
+(
+    [name] => ABCD
+    [short_name] => ABCD
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0013
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'ABCD', 'ABCD', 'ABC', 'CC0013', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-12 09:22:32 ====
+POST DATA:
+Array
+(
+    [name] => Safdar Ali
+    [short_name] => Safdar Ali
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0014
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type
+) VALUES (
+    'Safdar Ali', 'Safdar Ali', 'ABC', 'CC0014', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-14 07:45:32 ====
+POST DATA:
+Array
+(
+    [name] => ABCSD
+    [short_name] => ABCSD
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [form_type] => 1
+)
+Generated Code: CC0015
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type
+) VALUES (
+    'ABCSD', 'ABCSD', 'ABC', 'CC0015', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','1'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-14 09:57:59 ====
+POST DATA:
+Array
+(
+    [name] => ABCD
+    [short_name] => ABCD
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [form_type] => 1
+)
+Generated Code: CC0016
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type
+) VALUES (
+    'ABCD', 'ABCD', 'ABC', 'CC0016', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','1'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-15 08:10:33 ====
+POST DATA:
+Array
+(
+    [name] => Test1
+    [short_name] => Test1
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [form_type] => 1
+)
+Generated Code: CC0017
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type
+) VALUES (
+    'Test1', 'Test1', '1234567895', 'CC0017', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','1'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-15 08:32:48 ====
+POST DATA:
+Array
+(
+    [form_id] => 87
+    [name] => Test 2 
+    [short_name] => Test 2 
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [form_type] => 1
+)
+Generated Code: CC0018
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type
+) VALUES (
+    'Test 2 ', 'Test 2 ', '1234567895', 'CC0018', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','1'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-15 08:34:07 ====
+POST DATA:
+Array
+(
+    [form_id] => 88
+    [name] => Safdar 
+    [short_name] => Safdar 
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [form_type] => 1
+)
+Generated Code: CC0019
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Safdar ', 'Safdar ', '1234567895', 'CC0019', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','1', '88'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-17 07:34:32 ====
+POST DATA:
+Array
+(
+    [form_id] => 89
+    [name] => ABCDE
+    [short_name] => ABCDE
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [form_type] => 1
+)
+Generated Code: CC0020
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'ABCDE', 'ABCDE', '1234567895', 'CC0020', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','1', '89'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-19 06:45:11 ====
+POST DATA:
+Array
+(
+    [form_id] => 90
+    [name] => Final test
+    [short_name] => Final test
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [form_type] => 1
+)
+Generated Code: CC0021
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Final test', 'Final test', '1234567895', 'CC0021', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','1', '90'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-19 07:29:28 ====
+POST DATA:
+Array
+(
+    [form_id] => 91
+    [name] => Safdar 
+    [short_name] => Safdar 
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [form_type] => 1
+)
+Generated Code: CC0022
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Safdar ', 'Safdar ', '1234567895', 'CC0022', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','1', '91'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-19 07:51:48 ====
+POST DATA:
+Array
+(
+    [form_id] => 92
+    [name] => Safdar 
+    [short_name] => Safdar 
+    [contact_person_name] => ABC
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [form_type] => 1
+)
+Generated Code: CC0023
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Safdar ', 'Safdar ', '1234567895', 'CC0023', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','1', '92'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-19 08:33:08 ====
+POST DATA:
+Array
+(
+    [name] => Final ABC
+    [short_name] => Final ABC
+    [contact_person_name] => 
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0024
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Final ABC', 'Final ABC', '1234567895', 'CC0024', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','0', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-19 08:48:30 ====
+POST DATA:
+Array
+(
+    [name] => XDSSDSD
+    [short_name] => XDSSDSD
+    [contact_person_name] => 
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0025
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'XDSSDSD', 'XDSSDSD', '1234567895', 'CC0025', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','0', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-19 08:50:33 ====
+POST DATA:
+Array
+(
+    [name] => XDSSDSD
+    [short_name] => XDSSDSD
+    [contact_person_name] => 
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0026
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'XDSSDSD', 'XDSSDSD', '1234567895', 'CC0026', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','0', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-19 08:52:15 ====
+POST DATA:
+Array
+(
+    [name] => XDSSDSD
+    [short_name] => XDSSDSD
+    [contact_person_name] => 
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0025
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'XDSSDSD', 'XDSSDSD', '1234567895', 'CC0025', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','0', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-19 09:01:38 ====
+POST DATA:
+Array
+(
+    [name] => mncxvvjh
+    [short_name] => mncxvvjh
+    [contact_person_name] => 
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0026
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'mncxvvjh', 'mncxvvjh', '1234567895', 'CC0026', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','0', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-19 09:06:18 ====
+POST DATA:
+Array
+(
+    [name] => Safdar 
+    [short_name] => Safdar 
+    [contact_person_name] => 
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0027
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Safdar ', 'Safdar ', '1234567895', 'CC0027', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','0', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-19 09:14:51 ====
+POST DATA:
+Array
+(
+    [email] => safdarali.cse@gmail.com
+    [form_type] => 2
+)
+ERROR: Missing required fields
+==== New Request: 2025-07-19 09:14:51 ====
+POST DATA:
+Array
+(
+    [name] => Status
+    [short_name] => Status
+    [contact_person_name] => 
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0028
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Status', 'Status', '1234567895', 'CC0028', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','0', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-19 09:17:07 ====
+POST DATA:
+Array
+(
+    [name] => Status
+    [short_name] => Status
+    [contact_person_name] => 
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0028
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Status', 'Status', '1234567895', 'CC0028', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','0', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-19 09:20:12 ====
+POST DATA:
+Array
+(
+    [name] => Final test
+    [short_name] => Final test
+    [contact_person_name] => 
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+)
+Generated Code: CC0029
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Final test', 'Final test', '1234567895', 'CC0029', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','0', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-19 10:01:49 ====
+POST DATA:
+Array
+(
+    [name] => abcdse
+    [short_name] => abcdse
+    [contact_person_name] => 
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0030
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'abcdse', 'abcdse', '1234567895', 'CC0030', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-19 11:53:09 ====
+POST DATA:
+Array
+(
+    [name] => Wallets
+    [short_name] => Wallets
+    [contact_person_name] => 
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0031
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Wallets', 'Wallets', '', 'CC0031', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-21 08:43:44 ====
+POST DATA:
+Array
+(
+    [name] => ABCDER
+    [short_name] => ABCDER
+    [contact_person_name] => 
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0032
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'ABCDER', 'ABCDER', '', 'CC0032', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-21 09:09:24 ====
+POST DATA:
+Array
+(
+    [name] => Test 1
+    [short_name] => Test 1
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0002
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Test 1', 'Test 1', '', 'CC0002', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','2', '0'
+)
+==== New Request: 2025-07-21 09:20:52 ====
+POST DATA:
+Array
+(
+    [name] => Test 1
+    [short_name] => Test 1
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0002
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Test 1', 'Test 1', '', 'CC0002', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','2', '0'
+)
+==== New Request: 2025-07-21 09:26:56 ====
+POST DATA:
+Array
+(
+    [name] => Test 1
+    [short_name] => Test 1
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0002
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Test 1', 'Test 1', '', 'CC0002', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','2', '0'
+)
+==== New Request: 2025-07-21 09:30:42 ====
+POST DATA:
+Array
+(
+    [name] => Test 1
+    [short_name] => Test 1
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0002
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Test 1', 'Test 1', '', 'CC0002', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','2', '0'
+)
+==== New Request: 2025-07-21 09:32:56 ====
+POST DATA:
+Array
+(
+    [name] => Test 1
+    [short_name] => Test 1
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0002
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Test 1', 'Test 1', '', 'CC0002', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','2', '0'
+)
+==== New Request: 2025-07-21 09:34:55 ====
+POST DATA:
+Array
+(
+    [name] => Test 1
+    [short_name] => Test 1
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => Edtech
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0002
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Test 1', 'Test 1', '', 'CC0002', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', 'Edtech','2', '0'
+)
+==== New Request: 2025-07-21 09:44:01 ====
+POST DATA:
+Array
+(
+    [name] => Test 1
+    [short_name] => Test 1
+    [email] => safdarali.cse@gmail.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0002
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Test 1', 'Test 1', '', 'CC0002', 'safdarali.cse@gmail.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-07-22 06:27:41 ====
+POST DATA:
+Array
+(
+    [name] => Testing Center
+    [short_name] => Testing Center
+    [email] => saqib@edtechinnovate.com
+    [contact] => 9876554347
+    [address] => lal kuan
+    [pincode] => 201016
+    [city] => ABC
+    [district] => Ghaziabad
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0003
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Testing Center', 'Testing Center', '', 'CC0003', 'saqib@edtechinnovate.com', '9876554347', 'lal kuan', '201016',
+    'ABC', 'Ghaziabad', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-08-05 11:46:13 ====
+POST DATA:
+Array
+(
+    [name] => TEST
+    [short_name] => TEST
+    [email] => safdar@edtechinnovate.com
+    [contact] => 1234567895
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0004
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'TEST', 'TEST', '', 'CC0004', 'safdar@edtechinnovate.com', '1234567895', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-08-05 12:05:39 ====
+POST DATA:
+Array
+(
+    [name] => Safdar 
+    [short_name] => Safdar 
+    [email] => safdar@edtechinnovate.com
+    [contact] => 1234567890
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0005
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Safdar ', 'Safdar ', '', 'CC0005', 'safdar@edtechinnovate.com', '1234567890', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-08-14 04:14:42 ====
+POST DATA:
+Array
+(
+    [name] => I STEP
+    [short_name] => I STEP
+    [email] => uniqueistep25@gmail.com
+    [contact] => 6238033599
+    [address] => 5TH FLOOR,SILVER PLAZA BUILDING,NEAR NADHILATH GMART,PUTHIYA BUS STAND,CALICUT
+    [pincode] => 673004
+    [city] => ABC
+    [district] => CALICUT
+    [state] => KERALA
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0004
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'I STEP', 'I STEP', '', 'CC0004', 'uniqueistep25@gmail.com', '6238033599', '5TH FLOOR,SILVER PLAZA BUILDING,NEAR NADHILATH GMART,PUTHIYA BUS STAND,CALICUT', '673004',
+    'ABC', 'CALICUT', 'KERALA', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-08-14 07:17:10 ====
+POST DATA:
+Array
+(
+    [name] => ISWA COLLEGE 
+    [short_name] => ISWA COLLEGE 
+    [email] => oprashidwafy@gmail.com
+    [contact] => 9495784284
+    [address] => ISWA COLLEGE PADINHARATHARA PO 9495784284
+    [pincode] => 673575
+    [city] => ABC
+    [district] => Wayanad
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0005
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'ISWA COLLEGE ', 'ISWA COLLEGE ', '', 'CC0005', 'oprashidwafy@gmail.com', '9495784284', 'ISWA COLLEGE PADINHARATHARA PO 9495784284', '673575',
+    'ABC', 'Wayanad', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-08-14 07:24:43 ====
+POST DATA:
+Array
+(
+    [name] => ISWA COLLEGE 
+    [short_name] => ISWA COLLEGE 
+    [contact_person_name] => RASEENA PK 
+    [email] => oprashidwafy@gmail.com
+    [contact] => 9495784284
+    [address] => ISWA COLLEGE PADINHARATHARA PO 9495784284
+    [pincode] => 673575
+    [city] => ABC
+    [district] => Wayanad
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0006
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'ISWA COLLEGE ', 'ISWA COLLEGE ', 'RASEENA PK ', 'CC0006', 'oprashidwafy@gmail.com', '9495784284', 'ISWA COLLEGE PADINHARATHARA PO 9495784284', '673575',
+    'ABC', 'Wayanad', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-08-14 08:47:20 ====
+POST DATA:
+Array
+(
+    [name] => IITS
+    [short_name] => IITS
+    [contact_person_name] => Shahadha
+    [email] => nayanavinodan@gmail.com
+    [contact] => 9995350347
+    [address] => Vatakara
+    [pincode] => 673542
+    [city] => ABC
+    [district] => Kozhikode
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0007
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'IITS', 'IITS', 'Shahadha', 'CC0007', 'nayanavinodan@gmail.com', '9995350347', 'Vatakara', '673542',
+    'ABC', 'Kozhikode', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-08-20 04:47:41 ====
+POST DATA:
+Array
+(
+    [name] => I STEP
+    [short_name] => I STEP
+    [contact_person_name] => IBRAHIM OTHMAN KHAMIS OTHMAN AL HAMMADI
+    [email] => uniqueistep25@gmail.com
+    [contact] => 6238033599
+    [address] => 5TH FLOOR,SILVER PLAZA BUILDING,NEAR NADHILATH GMART,PUTHIYA BUS STAND,CALICUT
+    [pincode] => 673004
+    [city] => ABC
+    [district] => CALICUT
+    [state] => KERALA
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0007
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'I STEP', 'I STEP', 'IBRAHIM OTHMAN KHAMIS OTHMAN AL HAMMADI', 'CC0007', 'uniqueistep25@gmail.com', '6238033599', '5TH FLOOR,SILVER PLAZA BUILDING,NEAR NADHILATH GMART,PUTHIYA BUS STAND,CALICUT', '673004',
+    'ABC', 'CALICUT', 'KERALA', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-08-22 10:14:01 ====
+POST DATA:
+Array
+(
+    [name] => Edbell edusolutions
+    [short_name] => Edbell edusolutions
+    [contact_person_name] => Arif A
+    [email] => edbelledu@gmail.com
+    [contact] => 9241300600
+    [address] => Mananthavady,Calicut road,Calicut Tower
+    [pincode] => 670645
+    [city] => ABC
+    [district] => Wayanad
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0008
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Edbell edusolutions', 'Edbell edusolutions', 'Arif A', 'CC0008', 'edbelledu@gmail.com', '9241300600', 'Mananthavady,Calicut road,Calicut Tower', '670645',
+    'ABC', 'Wayanad', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-08-29 05:51:03 ====
+POST DATA:
+Array
+(
+    [name] => Edbell edusolutions
+    [short_name] => Edbell edusolutions
+    [contact_person_name] => Arif A
+    [email] => edbelledu@gmail.com
+    [contact] => 9241300600
+    [address] => Mananthavady,Calicut road,Calicut Tower
+    [pincode] => 670645
+    [city] => ABC
+    [district] => Wayanad
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0009
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Edbell edusolutions', 'Edbell edusolutions', 'Arif A', 'CC0009', 'edbelledu@gmail.com', '9241300600', 'Mananthavady,Calicut road,Calicut Tower', '670645',
+    'ABC', 'Wayanad', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-09-10 10:24:40 ====
+POST DATA:
+Array
+(
+    [name] => Niswa women's College 
+    [short_name] => Niswa women's College 
+    [contact_person_name] => ABDUL RAOOF M
+    [email] => raoofwafy111@gmail.com
+    [contact] => 9747360348
+    [address] => Niswa women's College, ERUMATHERUV, MANANTBAVADY PO WAYANAD 670645
+    [pincode] => 546076
+    [city] => ABC
+    [district] => Wayanad 
+    [state] => alarKE
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0010
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Niswa women's College ', 'Niswa women's College ', 'ABDUL RAOOF M', 'CC0010', 'raoofwafy111@gmail.com', '9747360348', 'Niswa women's College, ERUMATHERUV, MANANTBAVADY PO WAYANAD 670645', '546076',
+    'ABC', 'Wayanad ', 'alarKE', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+==== New Request: 2025-09-10 10:28:02 ====
+POST DATA:
+Array
+(
+    [name] => Niswa women's College 
+    [short_name] => Niswa women's College 
+    [contact_person_name] => ABDUL RAOOF M
+    [email] => raoofwafy111@gmail.com
+    [contact] => 9747360348
+    [address] => Niswa women's College, ERUMATHERUV, MANANTBAVADY PO WAYANAD 670645
+    [pincode] => 546076
+    [city] => ABC
+    [district] => Wayanad 
+    [state] => alarKE
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0010
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Niswa women's College ', 'Niswa women's College ', 'ABDUL RAOOF M', 'CC0010', 'raoofwafy111@gmail.com', '9747360348', 'Niswa women's College, ERUMATHERUV, MANANTBAVADY PO WAYANAD 670645', '546076',
+    'ABC', 'Wayanad ', 'alarKE', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+==== New Request: 2025-09-10 10:29:51 ====
+POST DATA:
+Array
+(
+    [name] => Test 1
+    [short_name] => Test 1
+    [email] => safdar@edtechinnovate.com
+    [contact] => 1234567896
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0010
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Test 1', 'Test 1', '', 'CC0010', 'safdar@edtechinnovate.com', '1234567896', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-09-10 10:58:08 ====
+POST DATA:
+Array
+(
+    [name] => Niswa women's College 
+    [short_name] => Niswa women's College 
+    [contact_person_name] => ABDUL RAOOF M
+    [email] => raoofwafy111@gmail.com
+    [contact] => 9747360348
+    [address] => Niswa women's College, ERUMATHERUV, MANANTBAVADY PO WAYANAD 670645
+    [pincode] => 546076
+    [city] => ABC
+    [district] => Wayanad 
+    [state] => alarKE
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0011
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Niswa women\'s College ', 'Niswa women\'s College ', 'ABDUL RAOOF M', 'CC0011', 'raoofwafy111@gmail.com', '9747360348', 'Niswa women's College, ERUMATHERUV, MANANTBAVADY PO WAYANAD 670645', '546076',
+    'ABC', 'Wayanad ', 'alarKE', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+==== New Request: 2025-09-10 11:19:29 ====
+POST DATA:
+Array
+(
+    [name] => Niswa women's College 
+    [short_name] => Niswa women's College 
+    [contact_person_name] => ABDUL RAOOF M
+    [email] => raoofwafy111@gmail.com
+    [contact] => 9747360348
+    [address] => Niswa women's College, ERUMATHERUV, MANANTBAVADY PO WAYANAD 670645
+    [pincode] => 546076
+    [city] => ABC
+    [district] => Wayanad 
+    [state] => alarKE
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0011
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Niswa women\'s College ', 'Niswa women\'s College ', 'ABDUL RAOOF M', 'CC0011', 'raoofwafy111@gmail.com', '9747360348', 'Niswa women\'s College, ERUMATHERUV, MANANTBAVADY PO WAYANAD 670645', '546076',
+    'ABC', 'Wayanad ', 'alarKE', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+==== New Request: 2025-09-15 07:08:18 ====
+POST DATA:
+Array
+(
+    [name] => HEALTH BRIDGE ACADEMY 
+    [short_name] => HEALTH BRIDGE ACADEMY 
+    [contact_person_name] => ISHAQ VALIYA KANDATHIL 
+    [email] => healthbridgeacademy@gmail.com
+    [contact] => 9037117102
+    [address] => MECCO MALL, CALICUT ROAD - CHEMMAD
+    [pincode] => 676306
+    [city] => ABC
+    [district] => Malappuram
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+==== New Request: 2025-09-15 07:15:32 ====
+POST DATA:
+Array
+(
+    [name] => HEALTH BRIDGE ACADEMY 
+    [short_name] => HEALTH BRIDGE ACADEMY 
+    [contact_person_name] => ISHAQ VALIYA KANDATHIL 
+    [email] => healthbridgeacademy@gmail.com
+    [contact] => 9037117102
+    [address] => MECCO MALL, CALICUT ROAD - CHEMMAD
+    [pincode] => 676306
+    [city] => ABC
+    [district] => Malappuram
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+==== New Request: 2025-09-15 07:26:45 ====
+POST DATA:
+Array
+(
+    [name] => HEALTH BRIDGE ACADEMY 
+    [short_name] => HEALTH BRIDGE ACADEMY 
+    [contact_person_name] => ISHAQ VALIYA KANDATHIL 
+    [email] => healthbridgeacademy@gmail.com
+    [contact] => 9037117102
+    [address] => MECCO MALL, CALICUT ROAD - CHEMMAD
+    [pincode] => 676306
+    [city] => ABC
+    [district] => Malappuram
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+==== New Request: 2025-09-15 07:28:46 ====
+POST DATA:
+Array
+(
+    [name] => Test 1
+    [short_name] => Test 1
+    [email] => safdar@edtechinnovate.com
+    [contact] => 1234567896
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+==== New Request: 2025-09-15 07:31:01 ====
+POST DATA:
+Array
+(
+    [name] => ABCDER
+    [short_name] => ABCDER
+    [email] => safdar@edtechinnovate.com
+    [contact] => 1234456789
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+==== New Request: 2025-09-15 07:41:58 ====
+POST DATA:
+Array
+(
+    [name] => ABCDER
+    [short_name] => ABCDER
+    [email] => safdar@edtechinnovate.com
+    [contact] => 1234456789
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+==== New Request: 2025-09-15 07:49:18 ====
+POST DATA:
+Array
+(
+    [name] => ABCDER
+    [short_name] => ABCDER
+    [email] => safdar@edtechinnovate.com
+    [contact] => 1234456789
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+SESSION DATA:
+Array
+(
+)
+==== New Request: 2025-09-15 07:55:32 ====
+POST DATA:
+Array
+(
+    [name] => ABCDER
+    [short_name] => ABCDER
+    [email] => safdar@edtechinnovate.com
+    [contact] => 1234456789
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+SESSION DATA:
+Array
+(
+)
+==== New Request: 2025-09-15 08:34:29 ====
+POST DATA:
+Array
+(
+    [name] => ABCDER
+    [short_name] => ABCDER
+    [email] => safdar@edtechinnovate.com
+    [contact] => 1234456789
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+SESSION DATA:
+==== New Request: 2025-09-15 08:38:03 ====
+POST DATA:
+Array
+(
+    [name] => ABCDER
+    [short_name] => ABCDER
+    [email] => safdar@edtechinnovate.com
+    [contact] => 1234456789
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CC0012
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'ABCDER', 'ABCDER', '', 'CC0012', 'safdar@edtechinnovate.com', '1234456789', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2025-09-15 08:44:28 ====
+POST DATA:
+Array
+(
+    [name] => ABCDER
+    [short_name] => ABCDER
+    [email] => safdar@edtechinnovate.com
+    [contact] => 1234456789
+    [address] => Saharanpur
+    [pincode] => 247452
+    [city] => ABC
+    [district] => Saharanpur
+    [state] => Uttar Pradesh
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0012
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'ABCDER', 'ABCDER', '', 'CCVTE0012', 'safdar@edtechinnovate.com', '1234456789', 'Saharanpur', '247452',
+    'ABC', 'Saharanpur', 'Uttar Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2025-09-15 08:57:49 ====
+POST DATA:
+Array
+(
+    [name] => HEALTH BRIDGE ACADEMY 
+    [short_name] => HEALTH BRIDGE ACADEMY 
+    [contact_person_name] => ISHAQ VALIYA KANDATHIL 
+    [email] => healthbridgeacademy@gmail.com
+    [contact] => 9037117102
+    [address] => MECCO MALL, CALICUT ROAD - CHEMMAD
+    [pincode] => 676306
+    [city] => ABC
+    [district] => Malappuram
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0013
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'HEALTH BRIDGE ACADEMY ', 'HEALTH BRIDGE ACADEMY ', 'ISHAQ VALIYA KANDATHIL ', 'CCVTE0013', 'healthbridgeacademy@gmail.com', '9037117102', 'MECCO MALL, CALICUT ROAD - CHEMMAD', '676306',
+    'ABC', 'Malappuram', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2025-09-22 08:41:49 ====
+POST DATA:
+Array
+(
+    [name] => ZAINS COLLEGE OF SCIENCE AND MANAGEMENT
+    [short_name] => ZAINS COLLEGE OF SCIENCE AND MANAGEMENT
+    [contact_person_name] => MUHAMMED HIBATHULLA PULLANIKKAL
+    [email] => zainsacademy@gmail.com
+    [contact] => 9207155255
+    [address] => MANJAKKAL, CHERPULASSERY
+    [pincode] => 679503
+    [city] => ABC
+    [district] => Palakkad
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0014
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'ZAINS COLLEGE OF SCIENCE AND MANAGEMENT', 'ZAINS COLLEGE OF SCIENCE AND MANAGEMENT', 'MUHAMMED HIBATHULLA PULLANIKKAL', 'CCVTE0014', 'zainsacademy@gmail.com', '9207155255', 'MANJAKKAL, CHERPULASSERY', '679503',
+    'ABC', 'Palakkad', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 0, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2025-09-26 08:57:57 ====
+POST DATA:
+Array
+(
+    [name] => ZAINS COLLEGE OF SCIENCE AND MANAGEMENT
+    [short_name] => ZAINS COLLEGE OF SCIENCE AND MANAGEMENT
+    [contact_person_name] => MUHAMMED HIBATHULLA PULLANIKKAL
+    [email] => zainsacademy@gmail.com
+    [contact] => 9207155255
+    [address] => MANJAKKAL, CHERPULASSERY
+    [pincode] => 679503
+    [city] => ABC
+    [district] => Palakkad
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0015
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'ZAINS COLLEGE OF SCIENCE AND MANAGEMENT', 'ZAINS COLLEGE OF SCIENCE AND MANAGEMENT', 'MUHAMMED HIBATHULLA PULLANIKKAL', 'CCVTE0015', 'zainsacademy@gmail.com', '9207155255', 'MANJAKKAL, CHERPULASSERY', '679503',
+    'ABC', 'Palakkad', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2025-10-11 09:11:40 ====
+POST DATA:
+Array
+(
+    [name] => Explore Institute of Skill education
+    [short_name] => Explore Institute of Skill education
+    [email] => riyaspaplassery@gmail.com
+    [contact] => 9544270017
+    [address] => Kalpetta (PO)Kalpetta 
+    [pincode] => 673121
+    [city] => ABC
+    [district] => Wayanad
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0016
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Explore Institute of Skill education', 'Explore Institute of Skill education', '', 'CCVTE0016', 'riyaspaplassery@gmail.com', '9544270017', 'Kalpetta (PO)Kalpetta ', '673121',
+    'ABC', 'Wayanad', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2025-10-15 07:06:06 ====
+POST DATA:
+Array
+(
+    [name] => RED CROSS ACADEMY
+    [short_name] => RED CROSS ACADEMY
+    [email] => redcrossacamedy2025@gmail.com
+    [contact] => 9847770917
+    [address] => RED CROSS TOWER, GROUND FLOOR, NAGAMPADOM, KOTTAYAM
+    [pincode] => 686001
+    [city] => ABC
+    [district] => Kottayam
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0017
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'RED CROSS ACADEMY', 'RED CROSS ACADEMY', '', 'CCVTE0017', 'redcrossacamedy2025@gmail.com', '9847770917', 'RED CROSS TOWER, GROUND FLOOR, NAGAMPADOM, KOTTAYAM', '686001',
+    'ABC', 'Kottayam', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2025-11-04 11:37:33 ====
+POST DATA:
+Array
+(
+    [name] => INSPIREX 
+    [short_name] => INSPIREX 
+    [contact_person_name] => ASIF K
+    [email] => asifwafy87@gmail.com
+    [contact] => 6282178264
+    [address] => INSPIREX OPO: KALPETTA  MUNICIPALITY 
+    [pincode] => 673121
+    [city] => ABC
+    [district] => Wayanad
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0018
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'INSPIREX ', 'INSPIREX ', 'ASIF K', 'CCVTE0018', 'asifwafy87@gmail.com', '6282178264', 'INSPIREX OPO: KALPETTA  MUNICIPALITY ', '673121',
+    'ABC', 'Wayanad', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2025-11-19 08:52:45 ====
+POST DATA:
+Array
+(
+    [name] => MASTERED EDUVENTURES LLP
+    [short_name] => MASTERED EDUVENTURES LLP
+    [contact_person_name] => FARHAN
+    [email] => ceomasteredskillacademy@gmail.com
+    [contact] => 6282615954
+    [address] => Room No. 35/2145 VK Tower, Valayanadu, Mankavu, Kozhikode, Kerala
+    [pincode] => 673007
+    [city] => ABC
+    [district] => Kozhikode
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0019
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'MASTERED EDUVENTURES LLP', 'MASTERED EDUVENTURES LLP', 'FARHAN', 'CCVTE0019', 'ceomasteredskillacademy@gmail.com', '6282615954', 'Room No. 35/2145 VK Tower, Valayanadu, Mankavu, Kozhikode, Kerala', '673007',
+    'ABC', 'Kozhikode', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2025-12-01 06:51:46 ====
+POST DATA:
+Array
+(
+    [name] => BENCA GROUP OF INSTITUTIONS
+    [short_name] => BENCA GROUP OF INSTITUTIONS
+    [contact_person_name] => BENNY KURIAKOSE
+    [email] => BENNYKRKS@GMAIL.COM
+    [contact] => 9886641555
+    [address] => UNITY COMPLEX, IRITTY
+    [pincode] => 670703
+    [city] => ABC
+    [district] => Kannur
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0021
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'BENCA GROUP OF INSTITUTIONS', 'BENCA GROUP OF INSTITUTIONS', 'BENNY KURIAKOSE', 'CCVTE0021', 'BENNYKRKS@GMAIL.COM', '9886641555', 'UNITY COMPLEX, IRITTY', '670703',
+    'ABC', 'Kannur', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2025-12-20 09:20:01 ====
+POST DATA:
+Array
+(
+    [name] => Market sutra
+    [short_name] => Market sutra
+    [email] => marketsutra.ceo@gmail.com
+    [contact] => 9562590485
+    [address] => Kitez,thoppinmoola,poothole,thrissur
+    [pincode] => 680004
+    [city] => ABC
+    [district] => Thrissur
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0023
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Market sutra', 'Market sutra', '', 'CCVTE0023', 'marketsutra.ceo@gmail.com', '9562590485', 'Kitez,thoppinmoola,poothole,thrissur', '680004',
+    'ABC', 'Thrissur', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2025-12-20 09:21:54 ====
+POST DATA:
+Array
+(
+    [name] => AYURPLUS ACADEMY
+    [short_name] => AYURPLUS ACADEMY
+    [contact_person_name] => ASHRAF
+    [email] => info@cimsedu.in
+    [contact] => 9847337038
+    [address] => THARAYITTAL, KONDOTTY P.O
+    [pincode] => 673638
+    [city] => ABC
+    [district] => Malappuram
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0024
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'AYURPLUS ACADEMY', 'AYURPLUS ACADEMY', 'ASHRAF', 'CCVTE0024', 'info@cimsedu.in', '9847337038', 'THARAYITTAL, KONDOTTY P.O', '673638',
+    'ABC', 'Malappuram', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2026-01-15 06:53:53 ====
+POST DATA:
+Array
+(
+    [name] => elegant designing academy
+    [short_name] => elegant designing academy
+    [contact_person_name] => SHIBILA V S
+    [email] => Elegantwayanad@gmail.com
+    [contact] => 6238685954
+    [address] => Mannilthodi
+    [pincode] => 670645
+    [city] => ABC
+    [district] => Wayanad
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0025
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'elegant designing academy', 'elegant designing academy', 'SHIBILA V S', 'CCVTE0025', 'Elegantwayanad@gmail.com', '6238685954', 'Mannilthodi', '670645',
+    'ABC', 'Wayanad', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2026-01-22 11:07:04 ====
+POST DATA:
+Array
+(
+    [name] => MERIT GROUP OF INSTITUTION
+    [short_name] => MERIT GROUP OF INSTITUTION
+    [contact_person_name] => ASKAR ALI K C
+    [email] => MERITOPENSCHOOL@GMAIL.COM
+    [contact] => 9747484936
+    [address] => MERIT  COLLEGE OF AVIATION AND PARAMEDICAL,  R  Dain Tower, Near Fathima Hospital, Pinangode Road, 673121
+    [pincode] => 673121
+    [city] => ABC
+    [district] => Wayanad
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0026
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'MERIT GROUP OF INSTITUTION', 'MERIT GROUP OF INSTITUTION', 'ASKAR ALI K C', 'CCVTE0026', 'MERITOPENSCHOOL@GMAIL.COM', '9747484936', 'MERIT  COLLEGE OF AVIATION AND PARAMEDICAL,  R  Dain Tower, Near Fathima Hospital, Pinangode Road, 673121', '673121',
+    'ABC', 'Wayanad', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2026-03-17 07:10:55 ====
+POST DATA:
+Array
+(
+    [name] => DEVICE MASTER  - ADVANCED MOBILE RE-ENGINEERING INSTITUTE
+    [short_name] => DEVICE MASTER  - ADVANCED MOBILE RE-ENGINEERING INSTITUTE
+    [contact_person_name] => ABDURAHIMAN.M.P
+    [email] => devicemasteracademy@gmail.com
+    [contact] => 9946710410
+    [address] => JASEELA JUNTION
+    [pincode] => 676123
+    [city] => ABC
+    [district] => Malappuram
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0028
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'DEVICE MASTER  - ADVANCED MOBILE RE-ENGINEERING INSTITUTE', 'DEVICE MASTER  - ADVANCED MOBILE RE-ENGINEERING INSTITUTE', 'ABDURAHIMAN.M.P', 'CCVTE0028', 'devicemasteracademy@gmail.com', '9946710410', 'JASEELA JUNTION', '676123',
+    'ABC', 'Malappuram', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2026-03-27 10:35:52 ====
+POST DATA:
+Array
+(
+    [name] => ZETA TRAINING INSTITUTE
+    [short_name] => ZETA TRAINING INSTITUTE
+    [contact_person_name] => JAMALUDHEEN PV
+    [email] => zetaupdate@gmail.com
+    [contact] => 7356557117
+    [address] => CHOLAKKUND,KOORMANKALLU ROAD,PALLIPADI,PARAPPUR,VENGARA,KERALA,676503
+    [pincode] => 676503
+    [city] => ABC
+    [district] => Malappuram
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0030
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'ZETA TRAINING INSTITUTE', 'ZETA TRAINING INSTITUTE', 'JAMALUDHEEN PV', 'CCVTE0030', 'zetaupdate@gmail.com', '7356557117', 'CHOLAKKUND,KOORMANKALLU ROAD,PALLIPADI,PARAPPUR,VENGARA,KERALA,676503', '676503',
+    'ABC', 'Malappuram', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2026-04-20 09:10:21 ====
+POST DATA:
+Array
+(
+    [name] => BCIT SKILL TRAINING CENTRE
+    [short_name] => BCIT SKILL TRAINING CENTRE
+    [contact_person_name] => SHYAM CHOURASIA
+    [email] => BCITCOMPUTERCHOURAI@GMAIL.COM
+    [contact] => 9300156219
+    [address] => ABOVE TITAN WORLD FIRST FLOOR PRASIA ROAD CHHINDWARA
+    [pincode] => 480001
+    [city] => ABC
+    [district] => Chhindwara
+    [state] => Madhya Pradesh
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0032
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'BCIT SKILL TRAINING CENTRE', 'BCIT SKILL TRAINING CENTRE', 'SHYAM CHOURASIA', 'CCVTE0032', 'BCITCOMPUTERCHOURAI@GMAIL.COM', '9300156219', 'ABOVE TITAN WORLD FIRST FLOOR PRASIA ROAD CHHINDWARA', '480001',
+    'ABC', 'Chhindwara', 'Madhya Pradesh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2026-04-20 09:12:15 ====
+POST DATA:
+Array
+(
+    [name] => SCALE UP FINTAX ACADEMY
+    [short_name] => SCALE UP FINTAX ACADEMY
+    [contact_person_name] => ABHIJITH ASOK P
+    [email] => scaleupfintaxacademy@gmail.com
+    [contact] => 9995084054
+    [address] => 1st floor city mall, Thissur Road, CHANGARAMKULAM
+    [pincode] => 679575
+    [city] => ABC
+    [district] => Malappuram
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0033
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'SCALE UP FINTAX ACADEMY', 'SCALE UP FINTAX ACADEMY', 'ABHIJITH ASOK P', 'CCVTE0033', 'scaleupfintaxacademy@gmail.com', '9995084054', '1st floor city mall, Thissur Road, CHANGARAMKULAM', '679575',
+    'ABC', 'Malappuram', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2026-05-23 06:38:31 ====
+POST DATA:
+Array
+(
+    [name] => Letz Life Skill Academy
+    [short_name] => Letz Life Skill Academy
+    [contact_person_name] => Junaid Kaippani
+    [email] => letzlife5@gmail.com
+    [contact] => 9745990985
+    [address] => Vellamunda 
+    [pincode] => 670731
+    [city] => ABC
+    [district] => WAYANAD
+    [state] => KERALA
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0035
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Letz Life Skill Academy', 'Letz Life Skill Academy', 'Junaid Kaippani', 'CCVTE0035', 'letzlife5@gmail.com', '9745990985', 'Vellamunda ', '670731',
+    'ABC', 'WAYANAD', 'KERALA', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2026-05-29 05:30:37 ====
+POST DATA:
+Array
+(
+    [name] => Shree Balaji Institute Of Skill Development
+    [short_name] => Shree Balaji Institute Of Skill Development
+    [contact_person_name] => Priya Sharma
+    [email] => priyasharmaanku2004@gmail.com
+    [contact] => 9165833350
+    [address] => Railway station road,under bridge uslapur Bilaspur
+    [pincode] => 495001
+    [city] => ABC
+    [district] => Bilaspur(CGH)
+    [state] => Chattisgarh
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0036
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Shree Balaji Institute Of Skill Development', 'Shree Balaji Institute Of Skill Development', 'Priya Sharma', 'CCVTE0036', 'priyasharmaanku2004@gmail.com', '9165833350', 'Railway station road,under bridge uslapur Bilaspur', '495001',
+    'ABC', 'Bilaspur(CGH)', 'Chattisgarh', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2026-06-13 04:49:04 ====
+POST DATA:
+Array
+(
+    [name] => Grace casa de profesores 
+    [short_name] => Grace casa de profesores 
+    [contact_person_name] => Abdul Kalam Azad K
+    [email] => graceareekode@gmail.com
+    [contact] => 8075300678
+    [address] => Areekode
+    [pincode] => 673639
+    [city] => ABC
+    [district] => Malappuram
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0037
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Grace casa de profesores ', 'Grace casa de profesores ', 'Abdul Kalam Azad K', 'CCVTE0037', 'graceareekode@gmail.com', '8075300678', 'Areekode', '673639',
+    'ABC', 'Malappuram', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2026-06-15 04:56:41 ====
+POST DATA:
+Array
+(
+    [name] => Grace casa de profesores 
+    [short_name] => Grace casa de profesores 
+    [contact_person_name] => Abdul Kalam Azad K
+    [email] => graceareekode@gmail.com
+    [contact] => 8075300678
+    [address] => Areekode
+    [pincode] => 673639
+    [city] => ABC
+    [district] => Malappuram
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0038
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Grace casa de profesores ', 'Grace casa de profesores ', 'Abdul Kalam Azad K', 'CCVTE0038', 'graceareekode@gmail.com', '8075300678', 'Areekode', '673639',
+    'ABC', 'Malappuram', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2026-07-14 07:43:45 ====
+POST DATA:
+Array
+(
+    [name] => EDDREAM DISTANCE & OVERSEAS EDUCATION
+    [short_name] => EDDREAM DISTANCE & OVERSEAS EDUCATION
+    [contact_person_name] => MOHAMED SHIBIN
+    [email] => helloeddream@gmail.com
+    [contact] => 8086895959
+    [address] => EDDREAM DISTANCE & OVERSEAS EDUCATION,DE GRAND MALL,PATTAMBI ROAD ,PERINTHALMANNA,MALAPPURAM DT,6736322 PIN,KERALA
+    [pincode] => 679322
+    [city] => ABC
+    [district] => Malappuram
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0039
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'EDDREAM DISTANCE & OVERSEAS EDUCATION', 'EDDREAM DISTANCE & OVERSEAS EDUCATION', 'MOHAMED SHIBIN', 'CCVTE0039', 'helloeddream@gmail.com', '8086895959', 'EDDREAM DISTANCE & OVERSEAS EDUCATION,DE GRAND MALL,PATTAMBI ROAD ,PERINTHALMANNA,MALAPPURAM DT,6736322 PIN,KERALA', '679322',
+    'ABC', 'Malappuram', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2026-07-22 11:28:11 ====
+POST DATA:
+Array
+(
+    [name] => DEAR ME
+    [short_name] => DEAR ME
+    [contact_person_name] => ANU PRAKASH
+    [email] => info@cimsedu.in
+    [contact] => 7510546333
+    [address] => NANMANDA,KOZHIKODE,KERALA - 673613
+    [pincode] => 673613
+    [city] => ABC
+    [district] => Kozhikode
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0040
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'DEAR ME', 'DEAR ME', 'ANU PRAKASH', 'CCVTE0040', 'info@cimsedu.in', '7510546333', 'NANMANDA,KOZHIKODE,KERALA - 673613', '673613',
+    'ABC', 'Kozhikode', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2026-08-01 07:46:34 ====
+POST DATA:
+Array
+(
+    [name] => AGT OIL FIELD ACADEMY
+    [short_name] => AGT OIL FIELD ACADEMY
+    [contact_person_name] => C K DROUPATH
+    [email] => info@cimsedu.in
+    [contact] => 7012532130
+    [address] => THEKKUMKATTIL ROAD, PATHADIPALAM
+    [pincode] => 682024
+    [city] => ABC
+    [district] => Ernakulam
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0041
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'AGT OIL FIELD ACADEMY', 'AGT OIL FIELD ACADEMY', 'C K DROUPATH', 'CCVTE0041', 'info@cimsedu.in', '7012532130', 'THEKKUMKATTIL ROAD, PATHADIPALAM', '682024',
+    'ABC', 'Ernakulam', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned
+SESSION DATA:
+==== New Request: 2026-08-08 05:48:11 ====
+POST DATA:
+Array
+(
+    [name] => Edu Gems
+    [short_name] => Edu Gems
+    [contact_person_name] => Suma SC
+    [email] => info.edugems@gmail.com
+    [contact] => 7403660989
+    [address] => Trinity Arcade, Ground Floor, Kannur Rd, near esaf bank, West Nadakkave, Vellayil, Kozhikode, Kerala
+    [pincode] => 673011
+    [city] => ABC
+    [district] => Kozhikode
+    [state] => Kerala
+    [user_type] => 1
+    [vertical_type] => 1
+    [status] => 2
+    [status_text] => Approved
+)
+Generated Code: CCVTE0042
+QUERY:
+
+INSERT INTO Users (
+    Name, Short_Name, Contact_Name, Code, Email, Mobile, Address, Pincode, City, District, State,
+    Password, Photo, Role, Designation, Is_Unique, Created_By, B2B_Partner, Vertical_type,form_type,form_id
+) VALUES (
+    'Edu Gems', 'Edu Gems', 'Suma SC', 'CCVTE0042', 'info.edugems@gmail.com', '7403660989', 'Trinity Arcade, Ground Floor, Kannur Rd, near esaf bank, West Nadakkave, Vellayil, Kozhikode, Kerala', '673011',
+    'ABC', 'Kozhikode', 'Kerala', AES_ENCRYPT('12345','60ZpqkOnqn0UQQ2MYTlJ'),
+    '/assets/img/default-user.png', 'Center', 'Center', 1, 1, '1', '1','2', '0'
+)
+SUCCESS: Inserted successfully
+Generated Code & Password Returned

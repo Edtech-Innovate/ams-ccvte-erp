@@ -1,0 +1,11 @@
+# Dependencies
+vendor/
+node_modules/
+
+# Uploads & Archives
+uploads/
+*.zip
+
+# Environment & Secrets
+.env
+*.log

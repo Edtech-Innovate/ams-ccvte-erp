@@ -1,0 +1,174 @@
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+require '../extras/vendor/autoload.php'; // Adjust this path if necessary
+
+use setasign\Fpdi\Fpdi;
+use setasign\Fpdi\PdfReader;
+
+require '../includes/db-config.php';
+session_start();
+
+
+if (isset($_GET['reg_no']) && isset($_GET['year'])) {
+
+    $reg_no_array = explode(",", $_GET['reg_no']);
+    $year='';
+    if ($_GET['year'] == 1) {
+        $year = "1 YEAR";
+    } else if ($_GET['year'] == 2) {
+        $year = "2ND YEAR";
+    }
+
+    if ($_GET['type'] == 'Marksheet') {
+
+        $tmp_dir = sys_get_temp_dir() . '/pdfs/';
+        if (!file_exists($tmp_dir)) {
+            mkdir($tmp_dir, 0777, true);
+        }
+
+        foreach ($reg_no_array as $reg_no_single) {
+            $reg_no_single = trim($reg_no_single, "'");
+            $student_sql = $conn->query("SELECT * FROM tbl_results WHERE TRIM(Registration_No) = '$reg_no_single'  AND Year = '$year' LIMIT 1");
+            $students = $student_sql->fetch_assoc();
+            $student_sql = $conn->query("SELECT * FROM tbl_results WHERE TRIM(Registration_No) = '$reg_no_single' AND Year = '$year'");
+            $row = [];
+            while ($stu_arr = $student_sql->fetch_assoc()) {
+                $row[] = $stu_arr;
+            }
+            $pdf = new Fpdi();
+            $pdf->SetTitle('Marksheet Form');
+            $pageCount = $pdf->setSourceFile('Markhseet.pdf');
+            $pdf->SetFont('Arial', 'B', 11);
+            $pageId = $pdf->importPage(1, PdfReader\PageBoundaries::MEDIA_BOX);
+            $pdf->addPage();
+            $pdf->useImportedPage($pageId, 0, 0, 210);
+            $pdf->SetFont('Arial', '', 11);
+
+            $pdf->SetXY(71, 68);
+            $pdf->Write(1, $students['Exam_Year']);
+
+            $pdf->SetXY(55, 78);
+            $pdf->Write(1, $students['Registration_No']);
+
+            $pdf->SetXY(48, 87);
+            $pdf->Write(1, strtoupper($students['Candidate_Name']));
+
+            $pdf->SetXY(30, 95.8);
+            $pdf->Write(1, strtoupper($students['Course']));
+
+            $pdf->SetXY(135, 95.8);
+            $pdf->Write(1, strtoupper($students['Year']));
+
+            $y = 136;
+            $total_obtained = [];
+            $total_max = [];
+            foreach ($row as $data) {
+                $obt_marks = $data['Obtained_Marks_Practical'] + $data['Obtained_Marks_Theory'];
+                $total_obtained[] = $obt_marks;
+                $total_max[] = isset($data['Max_Mark']) ? $data['Max_Mark'] : 0;
+
+                $x = 15;
+                $pdf->SetXY($x, $y);
+                $pdf->Write(1, !empty($data['Subject_Code']) ? substr($data['Subject_Code'], 0, 28) : '');
+
+                $x += 30;
+                $pdf->SetXY($x, $y);
+                $pdf->Write(1, !empty($data['Subject_Name']) ? substr($data['Subject_Name'], 0, 28) : '');
+
+                $x += 73;
+                $pdf->SetXY($x, $y);
+                $pdf->Write(1, !empty($data['Max_Mark']) ? substr($data['Max_Mark'], 0, 28) : '');
+
+                $x += 18;
+                $pdf->SetXY($x, $y);
+                $pdf->Write(1, !empty($data['Obtained_Marks_Theory']) ? substr($data['Obtained_Marks_Theory'], 0, 28) : '');
+
+                $x += 18;
+                $pdf->SetXY($x, $y);
+              //  $pdf->Write(1, !empty($data['Obtained_Marks_Practical']) ? substr($data['Obtained_Marks_Practical'], 0, 28) : '');
+                if(trim($data['Subject_Name'])=="VIVA"){
+                    $pdf->Write(1, !empty($data['Obtained_Marks_VIVA']) ? substr($data['Obtained_Marks_VIVA'], 0, 28) : '');
+                }else{
+                    $pdf->Write(1, !empty($data['Obtained_Marks_Practical']) ? substr($data['Obtained_Marks_Practical'], 0, 28) : '');
+                }
+                $x += 30;
+                $pdf->SetXY($x, $y);
+                $pdf->Write(1, !empty($obt_marks) ? substr($obt_marks, 0, 28) : '0');
+
+                $y += 14;
+            }
+
+            $percentage = 0;
+            $division = "";
+            if (array_sum($total_max) != 0) {
+                $percentage = (array_sum($total_obtained) / array_sum($total_max)) * 100;
+            }
+
+            if ($percentage < 33) {
+                $division = "Fail";
+            } elseif ($percentage >= 33 && $percentage < 45) {
+                $division = "IIIrd";
+            } elseif ($percentage >= 45 && $percentage < 60) {
+                $division = "IInd";
+            } elseif ($percentage >= 60 && $percentage < 75) {
+                $division = "Ist";
+            } else {
+                $division = "Distinction";
+            }
+
+            $pdf->SetXY(30, 217.4);
+            $pdf->Write(1, "Grand Total");
+
+            $pdf->SetXY(119, 217.4);
+            $pdf->Write(1, array_sum($total_max));
+
+            $pdf->SetXY(178, 217.4);
+            $pdf->Write(1, array_sum($total_obtained));
+
+            $pdf->SetXY(167, 236.4);
+            $pdf->Write(1, $division);
+
+            $pdf->SetXY(27, 267.9);
+            $pdf->Write(1, $data['Examination_Date'] . " " . $data['Exam_Month'] . " " . $data['Exam_Year']);
+
+            $pdf->Output($tmp_dir . "Marksheet_{$reg_no_single}.pdf", 'F');
+        }
+
+        $zip = new ZipArchive();
+        $zip_file = $tmp_dir . 'Marksheets.zip';
+        if ($zip->open($zip_file, ZipArchive::CREATE) !== TRUE) {
+            exit("Cannot open <$zip_file>\n");
+        }
+
+        foreach ($reg_no_array as $reg_no_single) {
+            $reg_no_single = trim($reg_no_single, "'");
+            $pdf_file = $tmp_dir . "Marksheet_{$reg_no_single}.pdf";
+            if (file_exists($pdf_file)) {
+                $zip->addFile($pdf_file, "Marksheet_{$reg_no_single}.pdf");
+            }
+        }
+
+        $zip->close();
+
+        header('Content-Type: application/zip');
+        header('Content-disposition: attachment; filename=Marksheets.zip');
+        header('Content-Length: ' . filesize($zip_file));
+        readfile($zip_file);
+
+        foreach ($reg_no_array as $reg_no_single) {
+            $reg_no_single = trim($reg_no_single, "'");
+            $pdf_file = $tmp_dir . "Marksheet_{$reg_no_single}.pdf";
+            if (file_exists($pdf_file)) {
+                unlink($pdf_file);
+            }
+        }
+        unlink($zip_file);
+        rmdir($tmp_dir);
+    } else if ($_GET['type'] == 'Certificate') {
+        
+    }
+} else {
+    header('Location: /');
+}
